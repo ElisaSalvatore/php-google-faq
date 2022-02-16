@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,38 @@
 }
 
 .container {
-    width: 1000px;
-    margin: 0 auto;
+    width: 950px;
+    margin: 0px auto;
+    font-size: 14px;
+    color: #333;
 }
 
 .title {
     font-size: 25px;
-    color: #333;
+    margin-top: 40px;
     padding: 20px 0;
 }
+
+p {
+    line-height: 25px;
+}
+
+ol {
+    padding: 20px 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+ol > li {
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+ul > li {
+    margin-left: 50px;
+    list-style: disc;
+}
+
+
