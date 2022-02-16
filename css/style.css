@@ -16,6 +16,7 @@ body {
     font-size: 24px;
     margin-top: 40px;
     padding: 20px 0;
+    line-height: 35px;
 }
 
 .small-title {
@@ -27,8 +28,13 @@ p {
 }
 
 ul,
+ol,
 li {
     padding: 10px 0;
+}
+
+ol {
+    margin-left: 15px;
 }
 
 ol > li {
@@ -37,7 +43,7 @@ ol > li {
 
 ul > li {
     margin-left: 40px;
-    list-style: disc;
+    list-style: lower-alpha;
 }
 
 .blue-text {
