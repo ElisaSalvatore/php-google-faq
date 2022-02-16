@@ -8,14 +8,18 @@ body {
 .container {
     width: 950px;
     margin: 0px auto;
-    font-size: 14px;
+    font-size: 13.5px;
     color: #333;
 }
 
 .title {
-    font-size: 25px;
+    font-size: 24px;
     margin-top: 40px;
     padding: 20px 0;
+}
+
+.small-title {
+    font-size: 20px;
 }
 
 p {
@@ -40,4 +44,6 @@ ul > li {
     list-style: disc;
 }
 
-
+.blue-text {
+    color:dodgerblue ;
+}
